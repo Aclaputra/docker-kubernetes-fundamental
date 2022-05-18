@@ -44,8 +44,15 @@ http://[EXTERNAL-IP]:8080
 ![](./external-ip.png)
 ## Task 5: Deleting the cluster
 Deleting the cluster can take a few minutes. For more information on deleted GKE clusters, view the [documentation](https://cloud.google.com/kubernetes-engine/docs/how-to/deleting-a-cluster).
-
+On cloud :
 ```bash
+kubectl get service -o wide
 gcloud container clusters delete [CLUSTER-NAME]
+```
+On local :
+Get all available services Then you can delete any services like this:
+```bash
+kubectl get service -o wide
+kubectl delete svc <YourServiceName>
 ```
 [>sumber belajar<](https://www.cloudskillsboost.google/focuses/878?parent=catalog)
