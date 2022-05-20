@@ -103,4 +103,6 @@ curl http://localhost:4000
 ```
 it will run the version 0.2 that we push earlier to the container registry (its like github)
 
+how to upload it to artifact container registry -> https://cloud.google.com/kubernetes-engine/docs/tutorials/hello-app
+
 [>sumber belajar<](https://www.cloudskillsboost.google/focuses/1029?parent=catalog)
