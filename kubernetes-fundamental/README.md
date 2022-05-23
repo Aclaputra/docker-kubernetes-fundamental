@@ -6,7 +6,7 @@ gcloud config set compute/zone us-central1-a
 ```bash
 gcloud container clusters create [CLUSTER-NAME]
 ```
-expected output :
+expected default output :
 ```bash
 NAME: my-cluster
 LOCATION: us-central1-a
@@ -17,6 +17,7 @@ NODE_VERSION: 1.21.5-gke.1302
 NUM_NODES: 3
 STATUS: RUNNING
 ```
+for customizing it -> https://cloud.google.com/sdk/gcloud/reference/container/clusters/create
 ## Task 3: Get authentication credentials for the cluster
 ```bash
 gcloud container clusters get-credentials [CLUSTER-NAME]
