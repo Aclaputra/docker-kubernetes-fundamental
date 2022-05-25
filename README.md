@@ -1,4 +1,4 @@
-Dockerhub: https://hub.docker.com/repository/docker/aclaputra/coba
+Dockerhub: https://hub.docker.com/repository/docker/aclaputra/chatbot-tvlk
 
 ```bash
 docker images
