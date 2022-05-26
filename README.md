@@ -53,7 +53,7 @@ Debug
 docker logs -f [container_id]
 ```
 
-get inside container 
+Get inside container 
 ```bash
 docker exec -it [container_id] bash
 ls
