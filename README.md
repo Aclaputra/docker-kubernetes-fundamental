@@ -15,7 +15,7 @@ Spend some time reviewing the https://docs.docker.com/engine/reference/builder/#
 docker build -t node-app:0.1 .
 docker images
 ```
-create app.js
+Create app.js
 ```bash
 docker run -p 4000:80 --name intro-docker node-app:0.1
 docker images
